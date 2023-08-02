@@ -122,6 +122,7 @@ header {
 .infor-container-left {     /* --------- Left Container Start here --------- */
     width: 60%;
     margin: 0 24px;
+    margin-bottom: 32px;
 }
 
 .content-infor-img img {
@@ -137,7 +138,7 @@ header {
 
 .infor-container-left p {
     margin-bottom: 32px;
-    font-size: 1.36vw;
+    font-size: 1.37vw;
 }
 
 .infor-container-left span {
