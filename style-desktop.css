@@ -57,3 +57,59 @@ header {
     text-decoration: underline;
 }
     /* -------------- header menu-bar End here -------------- */
+
+    /* -------------- Sec.(1) Start here  -------------- */
+.sec-hero {
+    display: flex;
+    background-color: #d8d8d8;
+}
+
+.content-hero-left {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.content-hero-left img {
+    width: 100%;
+}
+
+.container-hero-right {
+    display: flex;
+    align-items: center;
+}
+
+.content-hero-right {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 80%;
+}
+
+.content-hero-right h2 {
+    font-size: 3.4vw;
+    font-weight: 700;
+    color: #4a4a4a;
+    margin-top: 30px;
+}
+
+.content-hero-right p {
+    font-size: 1.8vw;
+    font-weight: 600;
+    color: #4a4a4a;
+    padding-top: 1.5rem;
+}
+
+.content-hero-right button {
+    padding: 8px 0;
+    margin: 40px 0;
+    background-color: #4a4a4a;
+    color: #f6f6f6;
+    font-size: 2vw;
+    width: 80%;
+}
+
+.content-hero-right button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+    /* -------------- Sec.(1) End here  -------------- */
