@@ -341,8 +341,24 @@ header {
     font-weight: 500;
     color: #595959;
 }
-
-
-
-
     /* ------------- Sec.(4) Start here-------------- */
+
+/* ---------- footer start herh --------- */
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    padding: 16px 24px;
+}
+
+footer p {
+    font-size: 1.15vw;
+    color: #595959;
+}
+
+.footer a{
+    margin-left: 16px;
+    color: #595959;
+    font-size: 1.15vw;
+}       
+    /* ---------- footer end herh --------- */
