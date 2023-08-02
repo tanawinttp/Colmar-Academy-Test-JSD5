@@ -21,7 +21,8 @@ a {
 }
 
     /* -------------- header menu-bar Start here -------------- */
-header {
+
+.menubar-desktop {
     display: flex;
     justify-content: space-between;
     align-items: center;
