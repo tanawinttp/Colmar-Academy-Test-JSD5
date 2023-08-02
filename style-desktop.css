@@ -113,3 +113,93 @@ header {
     cursor: pointer;
 }
     /* -------------- Sec.(1) End here  -------------- */
+
+    /* -------------- Sec.(2) Start here -------------- */
+.sec-information {
+    display: flex;
+}
+
+.infor-container-left {     /* --------- Left Container Start here --------- */
+    width: 60%;
+    margin: 0 24px;
+}
+
+.content-infor-img img {
+    width: 100%;
+    margin: 32px 0;
+}
+
+.infor-container-left h2 {
+    margin-bottom: 24px;
+    font-size: 2.9vw;
+    color: #4a4a4a;
+}
+
+.infor-container-left p {
+    margin-bottom: 32px;
+    font-size: 1.36vw;
+}
+
+.infor-container-left span {
+    font-weight: 600;
+    color: #4a4a4a;
+    /* border: 1px solid purple; */
+}
+/* --------- Left Container End here --------- */
+
+.infor-container-right {    /* --------- Right Container Start here --------- */
+    width: 40%;
+    margin: 16px 0 32px 0;
+}
+
+.card-container-infor {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0e2e2;
+}
+
+.card-container-infor:nth-child(3) {
+    background-color: #d8d8d8;
+}
+
+.card-img-infor {
+    padding: 16px;
+    width: 35%;
+    /* border: 3px solid purple; */
+}
+
+.card-img-infor img {
+    width: 100%;
+    height: auto;
+}
+
+.card-description-infor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+
+.card-description-infor h4 {
+    font-size: 1.6vw;
+    color: #4a4a4a;
+}
+
+.card-description-infor p {
+    margin: 8px 0;
+    font-size: 1.31vw;
+    font-weight: 500;
+    color: #949595;
+}
+
+.card-description-infor a {
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #618fdf;
+}
+
+.card-description-infor a:hover {
+    text-decoration: underline;
+}
+/* --------- Right Container End here --------- */
+              /* -------------- Sec.(2) End here -------------- */
